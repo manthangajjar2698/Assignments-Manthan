@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Assignment 1</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='main.css'>
+    <script src='main.js'></script>
+<style>
+    h2{
+        margin: 0;
+    }
+    .td text-2, input[type="text"], input[type="password"], input[type="textarea"], textarea , select,option, input[type="file"]{
+        width: 350px;
+        margin-left: 15px;
+        margin-right: 15px;
+        background-color: #a9eceb;
+
+    }
+    input[type="submit"] , input[type="reset"]{
+        background-color: #a9eceb;
+        width: 30%;
+        padding: 5px;
+              
+    }
+    input[type="checkbox"],input[type="radio"]
+
+    {
+        margin-left: 15px;
+    }
+    .td-heading{
+        width: 200px;
+        padding-left: 20px;
+        background-color: #12ced9;
+    }
+    .text-2
+    {
+        background-color: #12ced9;
+    }
+</style>    
+</head>
+<body bgcolor="pink">
+    <form>
+<table align="center" style="border:3px solid lightslategray;">
+<tr>
+    <td colspan="2" align="center" style="color: red;background-color: yellow;"><h2>User Form</h2></td> 
+</tr>    
+
+<tr>
+    <td class="td-heading">Enter Name</td>
+    <td class="text-2"><input type="text" name="Enter name"></td>
+</tr>    
+
+
+<tr>
+    <td class="td-heading">Enter Password</td>
+    <td class="text-2"><input type="password" name="Enter name"></td>
+</tr>    
+
+<tr>
+    <td class="td-heading">Enter Address</td>
+    <td class="text-2"><textarea name="add" rows="3" cols="60"></textarea></td>
+</tr>    
+
+
+<tr>
+    <td class="td-heading">Select Game </td>
+    <td class="text-2" >
+        <input type="checkbox" name="games" value="Hockey" /> Hockey <br>
+        <input type="checkbox" name="games" value="Hockey" /> Football<br>
+        <input type="checkbox" name="games" value="Hockey"> Badminton<br>
+        <input type="checkbox" name="games" value="Hockey"> Cricket<br>
+        <input type="checkbox" name="games" value="Hockey"> Volleyboll<br>
+        </td>
+</tr>    
+
+<tr>
+    <td class="td-heading">Gender </td>
+    <td class="text-2" >
+        <input type="radio" name="Gender" value="Male" />Male 
+        <input type="radio" name="Gender" value="Female" />Female <br>
+        </td>
+</tr>    
+
+<tr>
+    <td class="td-heading">Select ur age </td>
+    <td class="text-2" >
+        <select name="age">
+            <option value="12">select</option>   
+            <option value="12">67</option>   
+            <option value="12">32</option>   
+            <option value="12">32</option>   
+            <option value="12">23</option>   
+            <option value="12">21</option>   
+   
+        </select> 
+
+    </td>
+</tr>    
+
+<tr>
+<td colspan="2" align="center" class="text-2">
+    <input type="file" name="image" class="">
+</td>    
+</tr>
+
+<tr>
+    <td colspan="2" class="text-2">
+        <center>
+        <input type="submit" name="submit" value="Click Me"/>
+        <input type="reset" name="submit" value="Reset"/>
+        <input type="submit" name="submit" value="Submit Form"/>
+    </center>
+        
+    </td>  
+</tr>
+</table>
+</form>    
+</body>
+</html>     
